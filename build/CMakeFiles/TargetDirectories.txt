@@ -1,0 +1,7 @@
+/home/wsw01/my_github/my_byte_talk/build/CMakeFiles/edit_cache.dir
+/home/wsw01/my_github/my_byte_talk/build/CMakeFiles/rebuild_cache.dir
+/home/wsw01/my_github/my_byte_talk/build/src/CMakeFiles/edit_cache.dir
+/home/wsw01/my_github/my_byte_talk/build/src/CMakeFiles/rebuild_cache.dir
+/home/wsw01/my_github/my_byte_talk/build/src/server/CMakeFiles/wsw_ChatServer.dir
+/home/wsw01/my_github/my_byte_talk/build/src/server/CMakeFiles/edit_cache.dir
+/home/wsw01/my_github/my_byte_talk/build/src/server/CMakeFiles/rebuild_cache.dir
