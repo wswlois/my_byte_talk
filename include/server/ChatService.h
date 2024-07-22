@@ -26,6 +26,8 @@ public:
     void reg(const TcpConnectionPtr &,json &js, Timestamp time);
     // 获取消息对应的处理器
     MsgHandler getHandler(int msgid);
+    // 处理客户端异常退出
+    void clientCloseException(const TcpConnectionPtr &);
 private:
     ChatService();
     // 储存消息id和其对应的业务处理方法

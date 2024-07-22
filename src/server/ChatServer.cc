@@ -28,8 +28,9 @@ void ChatServer::start()
 void ChatServer::onConnection(const TcpConnectionPtr &conn)
 {
     // 客户端断开连接（muduo本身会打印断开信息）
-    if(conn->connected()) 
+    if(!conn->connected()) 
     {
+        ChatService::getInstance()->clientCloseException(conn);
         conn->shutdown();
     }
 }
